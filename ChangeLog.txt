@@ -1,0 +1,41 @@
+v 0.9.0 - October 2012
+
+- Pub: Dart Vector Math now fully supports the pub package management system!
+- API++: Minor changes to the API everywhere. The changes improve the aesthetics and performance of the library.
+- Faster: Lots of performance tweaks resulting in the library getting faster and generating less garbage.
+- 2D Cross Product: The Box2D Dart port requires a 2D cross product.
+- Library Split: Two libraries, one for browser applications and console applications.
+
+v 0.8.5 - July 29 2012
+
+- 33% faster matrix matrix multiply
+- Fix generated operator[]= 
+- Fix OpenGL lookat and perspective matrix constructors
+- Fix mat4x4 rotation constructors
+- Fix mat4x4 multiplied with vector3 not applying translation
+- Add utility methods for moving between Dart Vector Math types and Float32Array/Float32List types
+- Add mat4x4 translation constructor
+- Fixed buildPlaneVectors method
+- Fix mat4x4 transformDirect3 not applying translation
+- Add a new variant of mix() that takes the parameter t as a num or a vector
+- Large code reorganization to make it fit the 'dartblanklib' template
+
+v 0.8.0 - June 10 2012
+
+- Inverse of 2x2,3x3,4x4 matrices
+- Inverse of upper 3x3 of a 4x4 matrix
+- Added zero, copy and raw specialized (and branchless) vector constructors
+- Added specialized copy matrix constructor
+- Added specialized rotation matrix constructors for mat2x2, mat3x3, and mat4x4
+- Added setRotation(num radians) to mat2x2
+- Added setRotationAround[x,y,z](num radians) to mat3x3 and mat4x4
+- Added buildPlaneVectors which constructs the spanning vectors given a plane normal
+- Added Adjoint of 2x2,3x3, and 4x4 matrices
+- Fixed many bugs in quaternion class
+- Fixed adjoint matrix code generation
+- Added selfAdd, selfSub, selfScale and selfNegate to matrix classes
+- Added serialization support for Float32Array and Vectors/Matrices
+  
+v 0.0.0 - March 20 2012 
+
+- Initial release

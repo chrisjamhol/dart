@@ -1,0 +1,5 @@
+library Sale;
+
+class Sale {
+
+}
