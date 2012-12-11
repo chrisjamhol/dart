@@ -1,4 +1,4 @@
-v 0.9.0 - October 2012
+v 0.9.0 - October 2012 
 
 - Pub: Dart Vector Math now fully supports the pub package management system!
 - API++: Minor changes to the API everywhere. The changes improve the aesthetics and performance of the library.
